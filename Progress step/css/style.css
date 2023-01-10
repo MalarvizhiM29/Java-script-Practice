@@ -76,6 +76,7 @@ body{
 
 .btn{
     background-color: var(--line-border-fills);
+    color: #fff;
     border: 0;
     border-radius: 10px;
     cursor: pointer;
@@ -85,11 +86,11 @@ body{
     font-size: medium;
 }
 
-.btn.active{
+.btn:active{
     transform: scale(0.98);
 }
 
-.btn.focus{
+.btn:focus{
     outline: 0;
 }
 
